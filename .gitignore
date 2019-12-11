@@ -1,0 +1,21 @@
+# dependencies
+/taskbox/node_modules
+/taskbox/.pnp
+.pnp.js
+
+# testing
+/taskbox/coverage
+
+# production
+/taskbox/build
+
+# misc
+/taskbox/.DS_Store
+/taskbox/.env.local
+/taskbox/.env.development.local
+/taskbox/.env.test.local
+/taskbox/.env.production.local
+
+/taskbox/npm-debug.log*
+/taskbox/yarn-debug.log*
+/taskbox/yarn-error.log*
