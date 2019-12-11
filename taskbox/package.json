@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "CHROMATIC_APP_CODE=3t3ib9t3hc chromatic"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,6 +44,7 @@
     "@storybook/react": "^5.2.8",
     "babel-plugin-macros": "^2.8.0",
     "react-test-renderer": "^16.12.0",
-    "require-context.macro": "^1.2.2"
+    "require-context.macro": "^1.2.2",
+    "storybook-chromatic": "^3.4.1"
   }
 }
