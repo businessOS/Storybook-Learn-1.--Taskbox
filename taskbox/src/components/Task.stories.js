@@ -12,7 +12,7 @@ export const task = {
 };
 
 export const actions = {
-    onPinkTask: action('onPinTask'),
+    onPinTask: action('onPinTask'),
     onArchiveTask: action('onArchiveTask'),
 };
 
